@@ -1,0 +1,941 @@
+29/09/2014 09:11:57:211 [MonitorOnline][Checking] - Start MonitorService Main Process
+29/09/2014 09:11:57:271 [MonitorOnline][FixLog] - Start FixLog thread
+29/09/2014 09:11:57:271 [MonitorOnline][AreaChecking] - Start AreaChecking thread
+29/09/2014 09:11:57:271 [MonitorOnline][CheckBackupData] - Start CheckBackupData thread
+29/09/2014 09:11:57:271 [MonitorOnline][AreaChecking] - -------------Area Check 1-------------
+29/09/2014 09:11:57:281 [MonitorOnline][ResendState] - Init start ResendState
+29/09/2014 09:11:57:281 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 09:11:57:281 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 09:11:57|1|0|1|0|0|0
+29/09/2014 09:11:57:461 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 09:11:57:742 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 09:11:58:272 [MonitorOnline][isPortAvailable] - ERROR connecting to the server
+29/09/2014 09:11:58:272 [MonitorOnline][CrossCheck] - OnlineService port not available
+29/09/2014 09:11:58:272 [MonitorOnline][CrossCheck] - start OnlineService
+29/09/2014 09:11:58:272 [MonitorOnline][CrossCheck] - sleep 8000 s OnlineService SLEEPTIME_SERVICEWAIT
+29/09/2014 09:12:06:274 [MonitorOnline][CrossCheck] - OnlineService process not exist
+29/09/2014 09:12:07:185 [MonitorOnline][isPortAvailable] - ERROR connecting to the server
+29/09/2014 09:12:07:185 [MonitorOnline][CrossCheck] - OnlineService port not available
+29/09/2014 09:12:07:185 [MonitorOnline][CrossCheck] - start OnlineService
+29/09/2014 09:12:07:185 [MonitorOnline][CrossCheck] - sleep 8000 s OnlineService SLEEPTIME_SERVICEWAIT
+29/09/2014 09:12:15:217 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 09:12:15:237 [MonitorOnline][CrossCheck] - started OnlineService
+29/09/2014 09:12:15:237 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 09:12:15:297 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|18s]
+29/09/2014 09:12:15:297 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 09:12:18:411 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 09:12:22:968 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 09:12:45:831 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:02:24:104 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:02:30:894 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:02:30:914 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:02:30:924 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:02:30:924 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:02:44:313 [CSimpleSqlite][selectCompleteTopup] - use time: 50 milliSeconds
+29/09/2014 22:03:04:352 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:03:24:361 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:03:30:940 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:03:30:950 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:03:30:950 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:03:30:950 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:03:44:380 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:04:04:378 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:04:24:577 [CSimpleSqlite][selectCompleteTopup] - use time: 110 milliSeconds
+29/09/2014 22:04:31:007 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:04:31:087 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:04:31:187 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|1s]
+29/09/2014 22:04:31:207 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:04:44:776 [CSimpleSqlite][selectCompleteTopup] - use time: 40 milliSeconds
+29/09/2014 22:05:04:785 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:05:24:794 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:05:31:243 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:05:31:253 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:05:31:253 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:05:31:253 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:05:31:664 [MonitorOnline][AreaChecking] - -------------Area Check 8-------------
+29/09/2014 22:05:31:664 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 22:05:31:664 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 22:05:31|1|0|1|0|0|0
+29/09/2014 22:05:31:664 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 22:05:44:813 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:05:52:654 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 22:06:04:821 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:06:24:830 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:06:31:259 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:06:31:270 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:06:31:270 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:06:31:270 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:06:44:839 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:07:04:848 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:07:24:867 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:07:31:286 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:07:31:296 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:07:31:296 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:07:31:296 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:07:44:875 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:08:04:894 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:08:24:913 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:08:31:302 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:08:31:312 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:08:31:322 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:08:31:322 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:08:44:942 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:09:04:950 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:09:24:969 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:09:31:338 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:09:31:338 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:09:31:348 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:09:31:348 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:09:44:978 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:10:04:987 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:10:25:016 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:10:31:355 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:10:31:355 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:10:31:365 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:10:31:365 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:10:45:024 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:11:05:043 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:11:25:042 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:11:31:381 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:11:31:391 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:11:31:391 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:11:31:391 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:11:45:051 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:12:05:069 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:12:25:078 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:12:31:407 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:12:31:407 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:12:31:417 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:12:31:417 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:12:45:087 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:13:05:096 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:13:25:105 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:13:31:424 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:13:31:434 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:13:31:434 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:13:31:444 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:13:45:123 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:14:05:132 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:14:25:151 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:14:31:450 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:14:31:460 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:14:31:460 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:14:31:460 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:14:45:150 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:15:05:158 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:15:25:167 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:16:27:000 [MonitorOnline][Checking] - Start MonitorService Main Process
+29/09/2014 22:16:27:151 [MonitorOnline][FixLog] - Start FixLog thread
+29/09/2014 22:16:27:151 [MonitorOnline][AreaChecking] - Start AreaChecking thread
+29/09/2014 22:16:27:151 [MonitorOnline][AreaChecking] - -------------Area Check 1-------------
+29/09/2014 22:16:27:151 [MonitorOnline][CheckBackupData] - Start CheckBackupData thread
+29/09/2014 22:16:27:201 [MonitorOnline][ResendState] - Init start ResendState
+29/09/2014 22:16:27:251 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 22:16:27:251 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 22:16:27|1|0|1|0|0|0
+29/09/2014 22:16:27:441 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 22:16:28:242 [MonitorOnline][isPortAvailable] - ERROR connecting to the server
+29/09/2014 22:16:28:242 [MonitorOnline][CrossCheck] - OnlineService port not available
+29/09/2014 22:16:28:242 [MonitorOnline][CrossCheck] - start OnlineService
+29/09/2014 22:16:28:282 [MonitorOnline][CrossCheck] - sleep 8000 s OnlineService SLEEPTIME_SERVICEWAIT
+29/09/2014 22:16:28:292 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:16:36:284 [MonitorOnline][CrossCheck] - OnlineService process not exist
+29/09/2014 22:16:37:255 [MonitorOnline][isPortAvailable] - ERROR connecting to the server
+29/09/2014 22:16:37:255 [MonitorOnline][CrossCheck] - OnlineService port not available
+29/09/2014 22:16:37:255 [MonitorOnline][CrossCheck] - start OnlineService
+29/09/2014 22:16:37:255 [MonitorOnline][CrossCheck] - sleep 8000 s OnlineService SLEEPTIME_SERVICEWAIT
+29/09/2014 22:16:45:257 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:16:45:257 [MonitorOnline][CrossCheck] - started OnlineService
+29/09/2014 22:16:45:257 [MonitorOnline][CrossCheck] - send2service process not exist
+29/09/2014 22:16:45:257 [MonitorOnline][CrossCheck] - start send2service
+29/09/2014 22:16:45:267 [MonitorOnline][CrossCheck] - sleep 8000 s send2service SLEEPTIME_SERVICEWAIT
+29/09/2014 22:16:48:551 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 22:16:49:463 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:16:53:268 [MonitorOnline][CrossCheck] - started send2service
+29/09/2014 22:16:53:268 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:16:53:308 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|26s]
+29/09/2014 22:16:53:308 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:17:09:492 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:17:28:617 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:17:48:656 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:17:52:421 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:17:52:431 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:17:52:431 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:17:52:431 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:18:08:665 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:18:28:683 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:18:48:692 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:18:52:468 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:18:52:488 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:18:52:488 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:18:52:488 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:19:08:721 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:19:28:760 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:19:48:768 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:19:52:494 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:19:52:504 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:19:52:504 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:19:52:504 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:20:08:787 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:20:28:796 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:20:48:805 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:20:52:510 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:20:52:520 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:20:52:520 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:20:52:520 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:21:08:814 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:21:28:822 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:21:48:831 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:21:52:526 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:21:52:536 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:21:52:536 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:21:52:536 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:22:08:840 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:22:28:849 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:22:48:897 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:22:52:543 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:22:52:583 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:22:52:583 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:22:52:593 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:23:08:926 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:23:28:925 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:23:48:944 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:23:52:609 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:23:52:619 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:23:52:619 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:23:52:619 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:24:08:953 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:24:28:971 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:24:48:980 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:24:52:635 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:24:52:645 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:24:52:655 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:24:52:655 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:25:08:989 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:25:29:018 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:25:49:026 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:25:52:662 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:25:52:672 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:25:52:682 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:25:52:682 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:26:09:045 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:26:29:054 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:26:49:063 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:26:52:688 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:26:52:698 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:26:52:708 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:26:52:708 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:27:09:082 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:27:29:090 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:27:49:109 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:27:52:774 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:27:52:794 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:27:52:804 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:27:52:865 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:28:09:128 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:28:29:137 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:28:49:145 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:28:53:021 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:28:53:021 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:28:53:021 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:28:53:021 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:29:09:154 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:29:29:173 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:29:49:202 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:29:53:037 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:29:53:057 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:29:53:057 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:29:53:057 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:30:09:241 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:30:29:259 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:30:49:268 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:30:53:064 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:30:53:074 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:30:53:074 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:30:53:084 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:31:09:277 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:31:29:286 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:31:49:295 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:31:53:090 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:31:53:090 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:31:53:100 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:31:53:100 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:32:09:313 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:32:29:322 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:32:49:341 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:32:53:106 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:32:53:116 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:32:53:116 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:32:53:116 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:33:09:400 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:33:29:429 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:33:49:427 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:33:53:123 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:33:53:133 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:33:53:133 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:33:53:133 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:34:09:436 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:34:29:455 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:34:49:464 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:34:53:159 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:34:53:159 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:34:53:159 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:34:53:159 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:35:09:472 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:35:29:491 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:35:49:500 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:35:53:185 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:35:53:195 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:35:53:195 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:35:53:195 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:36:09:509 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:36:29:517 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:36:49:546 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:36:53:212 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:36:53:232 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:36:53:232 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:36:53:232 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:37:09:555 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:37:29:564 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:37:49:583 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:37:53:248 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:37:53:258 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:37:53:258 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:37:53:258 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:38:09:601 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:38:29:620 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:38:49:619 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:38:53:264 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:38:53:274 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:38:53:284 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:38:53:284 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:39:09:768 [CSimpleSqlite][selectCompleteTopup] - use time: 70 milliSeconds
+29/09/2014 22:39:29:787 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:39:49:805 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:39:53:311 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:39:53:321 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:39:53:321 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:39:53:321 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:40:09:814 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:40:29:833 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:40:49:832 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:40:53:327 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:40:53:337 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:40:53:337 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:40:53:337 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:41:09:841 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:41:29:859 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:41:49:868 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:41:53:353 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:41:53:363 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:41:53:363 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:41:53:363 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:42:09:877 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:42:29:886 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:42:49:894 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:42:53:379 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:42:53:399 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:42:53:399 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:42:53:399 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:43:09:913 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:43:29:942 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:43:49:951 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:43:53:416 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:43:53:426 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:43:53:426 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:43:53:436 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:44:09:960 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:44:29:978 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:44:49:977 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:44:53:462 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:44:53:492 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:44:53:492 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:44:53:492 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:45:00:763 [MonitorOnline][AreaChecking] - -------------Area Check 2-------------
+29/09/2014 22:45:00:763 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 22:45:00:773 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 22:45:00|1|0|1|0|0|0
+29/09/2014 22:45:00:773 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 22:45:09:996 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:45:21:673 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 22:45:30:025 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:45:50:043 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:45:53:498 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:45:53:518 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:45:53:518 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:45:53:518 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:46:10:052 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:46:30:061 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:46:50:080 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:46:53:535 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:46:53:545 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:46:53:545 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:46:53:555 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:47:10:099 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:47:30:107 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:47:50:126 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:47:53:571 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:47:53:581 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:47:53:581 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:47:53:581 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:48:10:155 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:48:30:164 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:48:50:182 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:48:53:597 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:48:53:607 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:48:53:617 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:48:53:617 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:49:10:191 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:49:30:200 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:49:50:209 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:49:53:624 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:49:53:634 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:49:53:644 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:49:53:644 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:50:10:218 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:50:30:236 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:50:50:245 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:50:53:650 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:50:53:660 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:50:53:660 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:50:53:660 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:51:10:254 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:51:30:273 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:51:50:281 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:51:53:676 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:51:53:686 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:51:53:686 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:51:53:686 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:52:10:290 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:52:30:299 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:52:50:308 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:52:53:703 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:52:53:713 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:52:53:743 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:52:53:743 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:53:10:317 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:53:30:335 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:53:50:334 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:53:53:759 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:53:53:769 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:53:53:769 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:53:53:769 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:54:10:363 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:54:30:382 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:54:50:390 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:54:53:785 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:54:53:795 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:54:53:805 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:54:53:805 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:55:10:409 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:55:30:418 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:55:50:427 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:55:53:812 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:55:53:832 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:55:53:832 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:55:53:832 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:56:10:446 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:56:30:464 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:56:50:493 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:56:53:838 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:56:53:858 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:56:53:858 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:56:53:858 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:57:10:512 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:57:30:521 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:57:50:529 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:57:53:874 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:57:53:904 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:57:53:904 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:57:53:914 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:58:10:548 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:58:30:557 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:58:50:596 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:58:53:931 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:58:53:931 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:58:53:941 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:58:53:941 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 22:59:10:615 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 22:59:30:633 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 22:59:50:642 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 22:59:53:947 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 22:59:53:957 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 22:59:53:957 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 22:59:53:957 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:00:10:651 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:00:30:660 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:00:50:668 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:00:53:963 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:00:53:983 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:00:53:983 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:00:53:983 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:01:10:687 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:01:30:696 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:01:50:705 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:01:54:000 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:01:54:010 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:01:54:010 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|1s]
+29/09/2014 23:01:54:020 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:02:10:714 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:02:30:732 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:02:37:182 [MonitorOnline][AreaChecking] - -------------Area Check 3-------------
+29/09/2014 23:02:37:202 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 23:02:37:202 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 23:02:37|1|0|1|0|0|0
+29/09/2014 23:02:37:202 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 23:02:50:731 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:02:54:026 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:02:54:036 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:02:54:036 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:02:54:036 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:02:58:142 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 23:03:10:740 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:03:30:749 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:03:50:767 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:03:54:052 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:03:54:062 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:03:54:062 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:03:54:062 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:04:10:776 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:04:30:795 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:04:50:804 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:04:54:068 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:04:54:079 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:04:54:079 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:04:54:079 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:05:10:813 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:05:30:831 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:05:50:840 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:05:54:095 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:05:54:105 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:05:54:105 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:05:54:105 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:06:10:869 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:06:30:878 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:06:50:886 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:06:54:121 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:06:54:131 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:06:54:131 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:06:54:131 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:07:10:895 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:07:30:904 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:07:50:913 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:07:54:147 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:07:54:167 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:07:54:167 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:07:54:167 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:08:10:932 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:08:30:960 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:08:50:969 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:08:54:194 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:08:54:204 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:08:54:204 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:08:54:204 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:09:10:978 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:09:30:987 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:09:50:995 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:09:54:210 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:09:54:220 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:09:54:220 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:09:54:220 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:10:11:034 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:10:31:043 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:10:51:052 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:10:54:246 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:10:54:256 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:10:54:266 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:10:54:266 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:11:11:061 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:11:31:079 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:11:51:088 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:11:54:283 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:11:54:293 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:11:54:293 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:11:54:293 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:12:11:097 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:12:31:176 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:12:51:205 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:12:54:299 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:12:54:309 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:12:54:309 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:12:54:319 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:13:01:980 [MonitorOnline][AreaChecking] - -------------Area Check 4-------------
+29/09/2014 23:13:01:990 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 23:13:01:990 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 23:13:01|1|0|1|0|0|0
+29/09/2014 23:13:01:990 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 23:13:11:223 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:13:22:930 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 23:13:31:232 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:13:51:261 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:13:54:325 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:13:54:325 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:13:54:335 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:13:54:335 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:14:11:310 [CSimpleSqlite][selectCompleteTopup] - use time: 30 milliSeconds
+29/09/2014 23:14:31:349 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:14:51:357 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:14:54:352 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:14:54:362 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:14:54:362 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:14:54:362 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:15:11:376 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:15:31:385 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:15:51:414 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:15:54:378 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:15:54:388 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:15:54:388 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:15:54:388 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:16:42:998 [MonitorOnline][Checking] - Start MonitorService Main Process
+29/09/2014 23:16:42:998 [MonitorOnline][FixLog] - Start FixLog thread
+29/09/2014 23:16:42:998 [MonitorOnline][CheckBackupData] - Start CheckBackupData thread
+29/09/2014 23:16:43:008 [MonitorOnline][CrossCheck] - Start CrossCheck thread
+29/09/2014 23:16:43:008 [MonitorOnline][ResendState] - Get frequency = 20000
+29/09/2014 23:16:43:008 [MonitorOnline][CrossCheck] - set CrossCheckTimeloop to 60000
+29/09/2014 23:16:43:008 [MonitorOnline][ResendState] - Init start ResendState
+29/09/2014 23:16:43:048 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:16:43:068 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 23:16:43:068 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 23:16:43|1|0|1|0|0|0
+29/09/2014 23:16:43:078 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:16:43:118 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:16:43:128 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:16:43:148 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:16:43:378 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 23:17:03:077 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:17:04:339 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 23:17:23:086 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:17:43:104 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:17:43:214 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:17:43:224 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:17:43:234 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:17:43:234 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:18:03:123 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:18:23:142 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:18:43:161 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:18:43:251 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:18:43:271 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:18:43:271 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:18:43:281 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:19:03:189 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:19:23:198 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:19:43:207 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:19:43:287 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:19:43:297 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:19:43:297 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:19:43:307 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:20:03:216 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:20:23:225 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:20:43:233 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:20:43:343 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:20:43:353 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:20:43:353 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:20:43:353 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:21:03:302 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:21:23:321 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:21:43:330 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:21:43:380 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:21:43:390 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:21:43:390 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:21:43:390 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:22:03:349 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:22:23:377 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:22:43:406 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:22:43:426 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:22:43:436 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:22:43:446 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:23:03:445 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:23:23:454 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:23:43:472 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:23:43:493 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:23:43:493 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:23:43:493 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:23:43:503 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:24:03:511 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:24:23:550 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:24:43:519 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:24:43:529 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:24:43:529 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:24:43:529 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:24:43:569 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:25:03:598 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:25:23:616 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:25:43:535 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:25:43:545 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:25:43:545 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:25:43:555 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:25:43:635 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:26:03:644 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:26:23:653 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:26:43:561 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:26:43:571 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:26:43:571 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:26:43:571 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:26:43:662 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:27:03:670 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:27:23:679 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:27:43:588 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:27:43:598 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:27:43:598 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:27:43:598 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:27:43:708 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:28:03:727 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:28:23:735 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:28:43:604 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:28:43:624 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:28:43:634 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:28:43:634 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:28:43:744 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:29:03:753 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:29:23:762 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:29:43:640 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:29:43:650 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:29:43:650 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:29:43:650 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:29:43:771 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:30:03:789 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:30:23:798 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:30:43:667 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:30:43:677 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:30:43:677 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:30:43:677 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:30:43:807 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:31:03:816 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:31:23:834 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:31:43:693 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:31:43:693 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:31:43:703 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:31:43:703 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:31:43:833 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:32:03:852 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:32:23:861 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:32:43:719 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:32:43:729 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:32:43:729 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:32:43:729 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:32:43:870 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:33:03:878 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:33:23:917 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:33:43:736 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:33:43:756 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:33:43:756 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:33:43:756 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:33:43:926 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:34:03:945 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:34:23:953 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:34:43:772 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:34:43:772 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:34:43:772 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:34:43:782 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:34:43:972 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:35:03:981 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:35:24:000 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:35:43:788 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:35:43:798 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:35:43:798 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:35:43:808 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:35:44:019 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:36:04:258 [CSimpleSqlite][selectCompleteTopup] - use time: 80 milliSeconds
+29/09/2014 23:36:24:307 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:36:43:815 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:36:43:825 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:36:43:825 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:36:43:825 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:36:44:315 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:37:04:334 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:37:24:343 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:37:43:841 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:37:43:851 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:37:43:851 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:37:43:851 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:37:44:362 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:38:04:360 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:38:24:369 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:38:43:857 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:38:43:867 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:38:43:897 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:38:43:897 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:38:44:388 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:39:04:417 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:39:24:426 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:39:39:667 [MonitorOnline][AreaChecking] - -------------Area Check 2-------------
+29/09/2014 23:39:39:687 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 23:39:39:697 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 23:39:39|1|0|1|0|0|0
+29/09/2014 23:39:39:697 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 23:39:43:914 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:39:43:934 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:39:43:934 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:39:43:934 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:39:44:454 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:40:00:628 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 23:40:04:463 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:40:24:512 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:40:43:149 [MonitorOnline][CheckBackupData] - Backup Transaction
+29/09/2014 23:40:43:319 [Rsync][rCopy] - command: c:\store\dmf\utility\rsync\rsync.exe -qmpt /cygdrive/C/Pos/TopupOnline/OnlineBase.DB /cygdrive/C/pos/TopupOnline/Backup/BackupOnlineTransaction20140929_2.db 
+29/09/2014 23:40:43:980 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:40:43:990 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:40:44:000 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:40:44:030 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:40:44:641 [CSimpleSqlite][selectCompleteTopup] - use time: 70 milliSeconds
+29/09/2014 23:40:44:951 [MonitorOnline][DBBackup_RSync] - rsync.rCopy to preparePath: 0: Success
+29/09/2014 23:40:45:572 [MonitorOnline][DBBackup_RSync] - created temp directory C:\pos\TopupOnline\Backup\temp
+29/09/2014 23:40:45:572 [Rsync][rCopy] - command: c:\store\dmf\utility\rsync\rsync.exe -qmpt /cygdrive/C/pos/TopupOnline/Backup/temp/ STC9_19991::root/pos/TopupOnline/ 
+29/09/2014 23:40:47:405 [MonitorOnline][DBBackup_RSync] - create sc path: 0: Success
+29/09/2014 23:40:47:525 [Rsync][rMove] - command: c:\store\dmf\utility\rsync\rsync.exe -qmpt /cygdrive/C/pos/TopupOnline/Backup/BackupOnlineTransaction20140929_2.db STC9_19991::root/pos/TopupOnline/ --remove-source-files 
+29/09/2014 23:40:49:588 [MonitorOnline][DBBackup_RSync] - rsync.rMove to sc path: 0: Success
+29/09/2014 23:40:49:798 [MonitorOnline][DBBackup_RSync] - count id =4062
+29/09/2014 23:40:49:798 [CSimpleSqlite][execNonQuery] - DELETE FROM current WHERE id <= 4059 AND STATUS=69206016 AND SEQ=2
+29/09/2014 23:40:49:959 [CSimpleSqlite][execNonQuery] - use time: 160 milliSeconds command: DELETE FROM current WHERE id <= 4059 AND STATUS=69206016 AND SEQ=2
+29/09/2014 23:40:49:969 [CSimpleSqlite][execNonQuery] - DELETE FROM current WHERE (SEQ = '1' OR SEQ is NULL) AND ID < 4059
+29/09/2014 23:40:50:089 [CSimpleSqlite][execNonQuery] - use time: 130 milliSeconds command: DELETE FROM current WHERE (SEQ = '1' OR SEQ is NULL) AND ID < 4059
+29/09/2014 23:40:50:099 [CSimpleSqlite][execNonQuery] - VACUUM;
+29/09/2014 23:40:50:099 [CSimpleSqlite][execNonQuery] - SQL error: cannot VACUUM from within a transaction [VACUUM;]
+29/09/2014 23:40:50:099 [CSimpleSqlite][execNonQuery] - use time: 0 milliSeconds command: VACUUM;
+29/09/2014 23:41:04:660 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:41:24:668 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:41:44:046 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:41:44:056 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:41:44:056 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:41:44:056 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:41:44:687 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:42:04:686 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:42:24:705 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:42:44:063 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:42:44:073 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:42:44:073 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:42:44:073 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:42:44:724 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:43:04:732 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:43:24:741 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:43:44:089 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:43:44:109 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:43:44:109 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:43:44:109 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:43:44:750 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:44:04:759 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:44:24:777 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:44:44:115 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:44:44:125 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:44:44:125 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:44:44:125 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:44:44:786 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:45:04:815 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:45:24:824 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:45:44:132 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:45:44:152 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:45:44:152 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:45:44:152 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:45:44:843 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:46:04:861 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:46:19:552 [MonitorOnline][AreaChecking] - -------------Area Check 3-------------
+29/09/2014 23:46:19:562 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 23:46:19:562 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 23:46:19|1|0|1|0|0|0
+29/09/2014 23:46:19:562 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 23:46:24:880 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:46:40:603 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 23:46:44:158 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:46:44:168 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:46:44:168 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:46:44:178 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:46:44:889 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:46:50:096 [MonitorOnline][CheckBackupData] - Backup Transaction
+29/09/2014 23:46:50:487 [MonitorOnline][DBBackup_RSync] - created temp directory C:\pos\TopupOnline\Backup\temp
+29/09/2014 23:46:50:487 [Rsync][rCopy] - command: c:\store\dmf\utility\rsync\rsync.exe -qmpt /cygdrive/C/pos/TopupOnline/Backup/temp/ STC9_19991::root/pos/TopupOnline/ 
+29/09/2014 23:46:52:720 [MonitorOnline][DBBackup_RSync] - create sc path: 0: Success
+29/09/2014 23:46:52:890 [MonitorOnline][DBBackup_RSync] - count id =4062
+29/09/2014 23:46:52:890 [CSimpleSqlite][execNonQuery] - DELETE FROM current WHERE id <= 4059 AND STATUS=69206016 AND SEQ=2
+29/09/2014 23:46:52:890 [CSimpleSqlite][execNonQuery] - use time: 0 milliSeconds command: DELETE FROM current WHERE id <= 4059 AND STATUS=69206016 AND SEQ=2
+29/09/2014 23:46:52:890 [CSimpleSqlite][execNonQuery] - DELETE FROM current WHERE (SEQ = '1' OR SEQ is NULL) AND ID < 4059
+29/09/2014 23:46:52:900 [CSimpleSqlite][execNonQuery] - use time: 10 milliSeconds command: DELETE FROM current WHERE (SEQ = '1' OR SEQ is NULL) AND ID < 4059
+29/09/2014 23:46:52:900 [CSimpleSqlite][execNonQuery] - VACUUM;
+29/09/2014 23:46:52:900 [CSimpleSqlite][execNonQuery] - SQL error: cannot VACUUM from within a transaction [VACUUM;]
+29/09/2014 23:46:52:900 [CSimpleSqlite][execNonQuery] - use time: 0 milliSeconds command: VACUUM;
+29/09/2014 23:47:04:898 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:47:24:916 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:47:44:204 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:47:44:214 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:47:44:214 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:47:44:214 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:47:44:925 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:48:04:944 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:48:24:943 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:48:44:230 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:48:44:240 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:48:44:240 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:48:44:240 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:48:44:972 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:49:05:000 [CSimpleSqlite][selectCompleteTopup] - use time: 30 milliSeconds
+29/09/2014 23:49:24:999 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:49:44:257 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:49:44:257 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:49:44:267 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:49:44:267 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:49:45:018 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:50:05:037 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:50:25:055 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:50:44:283 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:50:44:303 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:50:44:303 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:50:44:303 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:50:45:074 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:51:05:093 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:51:25:092 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:51:44:309 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:51:44:329 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:51:44:329 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:51:44:329 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:51:45:111 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:52:05:129 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:52:25:138 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:52:44:346 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:52:44:356 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:52:44:366 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:52:44:366 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:52:45:147 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:53:05:146 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:53:25:174 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:53:44:382 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:53:44:412 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:53:44:412 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:53:44:412 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:53:45:183 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:54:05:202 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:54:25:211 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:54:44:428 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:54:44:438 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:54:44:438 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:54:44:438 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:54:45:230 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:55:05:238 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:55:25:237 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:55:44:455 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:55:44:465 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:55:44:465 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:55:44:465 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:55:45:256 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:56:05:265 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:56:25:273 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:56:44:471 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:56:44:491 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:56:44:501 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:56:44:501 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:56:45:282 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:57:05:291 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:57:25:300 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:57:44:517 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:57:44:517 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:57:44:527 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:57:44:527 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:57:45:319 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:58:05:327 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:58:08:762 [MonitorOnline][AreaChecking] - -------------Area Check 4-------------
+29/09/2014 23:58:08:762 [HeartbeatData][InitCheckIPAddress] - address = 117.113.122.122
+29/09/2014 23:58:08:762 [HeartbeatData][getServiceStatus] - data = V01|POS2_19991|117.113.122.122|29/09/2014 23:58:08|1|0|1|0|0|0
+29/09/2014 23:58:08:762 [MonitorOnline][CallHeartbeat] - Endpoint: http://10.181.26.13:38083/HQHeartBeat/HeartBeatService
+29/09/2014 23:58:25:336 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:58:29:662 [MonitorOnline][CallHeartbeat] - [ERROR]SOAP error = 28
+29/09/2014 23:58:44:544 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:58:44:554 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:58:44:554 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:58:44:564 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:58:45:345 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds
+29/09/2014 23:59:05:364 [CSimpleSqlite][selectCompleteTopup] - use time: 20 milliSeconds
+29/09/2014 23:59:25:372 [CSimpleSqlite][selectCompleteTopup] - use time: 0 milliSeconds
+29/09/2014 23:59:44:570 [MonitorOnline][isPortAvailable] - send testing data to onlineservice completed
+29/09/2014 23:59:44:580 [MonitorOnline][CrossCheck] - config[monitor_all|1|monitor][monitor_onlineservice|1|monitor][monitor_rsync|0|not monitor][monitor_s2s|1|monitor]
+29/09/2014 23:59:44:580 [MonitorOnline][CrossCheck] - status[onlineservice|1|running][rsync|0|not monitor][s2s|1|running][use time|0s]
+29/09/2014 23:59:44:580 [MonitorOnline][CrossCheck] - sleep 60000 big loop
+29/09/2014 23:59:45:391 [CSimpleSqlite][selectCompleteTopup] - use time: 10 milliSeconds

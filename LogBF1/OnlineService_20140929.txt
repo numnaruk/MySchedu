@@ -1,0 +1,242 @@
+29/09/2014 09:12:10:900 [CSimpleSqlite][execNonQuery] - INSERT INTO priority VALUES('service_name',5);
+29/09/2014 09:12:10:900 [CSimpleSqlite][execNonQuery] - SQL error: UNIQUE constraint failed: priority.SERVICE [INSERT INTO priority VALUES('service_name',5);]
+29/09/2014 09:12:10:900 [CSimpleSqlite][execNonQuery] - use time: 0 milliSeconds command: INSERT INTO priority VALUES('service_name',5);
+29/09/2014 09:12:15:217 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 09:12:15:217 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:02:30:894 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:02:30:924 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:03:30:940 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:03:30:940 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:04:31:007 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:04:31:017 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:05:31:243 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:05:31:243 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:06:31:259 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:06:31:270 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:07:31:286 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:07:31:286 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:08:31:302 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:08:31:312 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:09:31:328 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:09:31:338 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:10:31:345 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:10:31:355 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:11:31:371 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:11:31:381 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:12:31:407 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:12:31:407 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:13:31:424 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:13:31:424 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:14:31:450 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:14:31:450 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:16:41:341 [CSimpleSqlite][execNonQuery] - INSERT INTO priority VALUES('service_name',5);
+29/09/2014 22:16:41:341 [CSimpleSqlite][execNonQuery] - SQL error: UNIQUE constraint failed: priority.SERVICE [INSERT INTO priority VALUES('service_name',5);]
+29/09/2014 22:16:41:341 [CSimpleSqlite][execNonQuery] - use time: 0 milliSeconds command: INSERT INTO priority VALUES('service_name',5);
+29/09/2014 22:16:45:257 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:16:45:257 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:17:52:421 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:17:52:421 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:18:52:468 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:18:52:468 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:19:52:494 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:19:52:494 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:20:52:510 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:20:52:510 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:21:52:526 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:21:52:526 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:22:52:543 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:22:52:553 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:23:52:609 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:23:52:609 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:24:52:635 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:24:52:635 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:25:52:662 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:25:52:662 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:26:52:688 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:26:52:688 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:27:52:774 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:27:52:784 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:28:53:001 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:28:53:021 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:29:53:027 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:29:53:037 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:30:53:064 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:30:53:064 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:31:53:080 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:31:53:090 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:32:53:106 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:32:53:106 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:33:53:123 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:33:53:123 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:34:53:149 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:34:53:149 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:35:53:165 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:35:53:185 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:36:53:202 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:36:53:212 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:37:53:248 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:37:53:248 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:38:53:264 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:38:53:264 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:39:53:311 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:39:53:311 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:40:53:327 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:40:53:327 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:41:53:353 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:41:53:353 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:42:53:379 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:42:53:379 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:43:53:416 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:43:53:416 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:44:53:462 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:44:53:462 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:45:53:498 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:45:53:498 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:46:53:525 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:46:53:535 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:47:53:561 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:47:53:571 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:48:53:597 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:48:53:597 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:49:53:624 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:49:53:624 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:50:53:650 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:50:53:650 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:51:53:676 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:51:53:676 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:52:53:703 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:52:53:703 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:53:53:759 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:53:53:759 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:54:53:775 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:54:53:785 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:55:53:812 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:55:53:812 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:56:53:838 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:56:53:838 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:57:53:874 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:57:53:874 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:58:53:921 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:58:53:931 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 22:59:53:947 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 22:59:53:947 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:00:53:963 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:00:53:973 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:01:54:000 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:01:54:000 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:02:54:026 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:02:54:026 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:03:54:052 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:03:54:052 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:04:54:068 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:04:54:068 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:05:54:095 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:05:54:095 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:06:54:121 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:06:54:121 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:07:54:137 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:07:54:147 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:08:54:194 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:08:54:194 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:09:54:210 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:09:54:210 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:10:54:226 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:10:54:246 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:11:54:283 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:11:54:283 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:12:54:299 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:12:54:299 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:13:54:325 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:13:54:325 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:14:54:352 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:14:54:362 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:15:54:378 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:15:54:378 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:16:43:078 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:16:43:098 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:17:43:214 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:17:43:214 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:18:43:251 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:18:43:261 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:19:43:277 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:19:43:287 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:20:43:343 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:20:43:343 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:21:43:370 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:21:43:380 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:22:43:396 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:22:43:406 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:23:43:472 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:23:43:472 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:24:43:519 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:24:43:519 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:25:43:535 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:25:43:535 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:26:43:561 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:26:43:561 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:27:43:588 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:27:43:588 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:28:43:604 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:28:43:604 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:29:43:640 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:29:43:640 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:30:43:667 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:30:43:667 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:31:43:683 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:31:43:693 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:32:43:719 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:32:43:719 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:33:43:736 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:33:43:736 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:34:43:762 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:34:43:772 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:35:43:788 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:35:43:788 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:36:43:815 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:36:43:815 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:37:43:841 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:37:43:841 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:38:43:857 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:38:43:857 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:39:43:914 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:39:43:914 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:40:43:980 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:40:43:980 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:41:44:046 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:41:44:046 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:42:44:063 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:42:44:063 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:43:44:089 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:43:44:089 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:44:44:115 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:44:44:115 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:45:44:132 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:45:44:132 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:46:44:158 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:46:44:158 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:47:44:194 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:47:44:194 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:48:44:230 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:48:44:230 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:49:44:257 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:49:44:257 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:50:44:273 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:50:44:283 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:51:44:309 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:51:44:319 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:52:44:336 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:52:44:346 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:53:44:382 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:53:44:382 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:54:44:428 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:54:44:428 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:55:44:445 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:55:44:455 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:56:44:471 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:56:44:491 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:57:44:507 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:57:44:517 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:58:44:544 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:58:44:544 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
+29/09/2014 23:59:44:570 [StoreAndForward][SocketTerminal] - --------------------Begin---------------------
+29/09/2014 23:59:44:570 [StoreAndForward][SocketTerminal] -  (primarykey <=0):(0) is (checking from monitorservice) maybe character.
